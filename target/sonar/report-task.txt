@@ -1,0 +1,6 @@
+projectKey=com.softserve.academy:sonardemo
+serverUrl=http://localhost:9000
+serverVersion=10.0.0.68432
+dashboardUrl=http://localhost:9000/dashboard?id=com.softserve.academy%3Asonardemo
+ceTaskId=AYiqnUvfeeUGchRQ1isO
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AYiqnUvfeeUGchRQ1isO

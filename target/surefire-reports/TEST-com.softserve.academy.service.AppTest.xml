@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.softserve.academy.service.AppTest" time="0.222" tests="12" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="C:\Intel\javaProjects\sonardemo\target\test-classes;C:\Intel\javaProjects\sonardemo\target\classes;C:\Users\yharasym\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.3\junit-jupiter-engine-5.9.3.jar;C:\Users\yharasym\.m2\repository\org\junit\platform\junit-platform-engine\1.9.3\junit-platform-engine-1.9.3.jar;C:\Users\yharasym\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\yharasym\.m2\repository\org\junit\platform\junit-platform-commons\1.9.3\junit-platform-commons-1.9.3.jar;C:\Users\yharasym\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.3\junit-jupiter-api-5.9.3.jar;C:\Users\yharasym\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\yharasym\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.3\junit-jupiter-params-5.9.3.jar;C:\Users\yharasym\.m2\repository\org\sonarsource\scanner\maven\sonar-maven-plugin\3.9.1.2184\sonar-maven-plugin-3.9.1.2184.jar;C:\Users\yharasym\.m2\repository\org\sonatype\plexus\plexus-sec-dispatcher\1.4\plexus-sec-dispatcher-1.4.jar;C:\Users\yharasym\.m2\repository\org\sonatype\plexus\plexus-cipher\1.4\plexus-cipher-1.4.jar;C:\Users\yharasym\.m2\repository\org\codehaus\plexus\plexus-utils\3.2.1\plexus-utils-3.2.1.jar;C:\Users\yharasym\.m2\repository\org\sonarsource\scanner\api\sonar-scanner-api\2.16.2.588\sonar-scanner-api-2.16.2.588.jar;C:\Users\yharasym\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\yharasym\.m2\repository\org\jacoco\jacoco-maven-plugin\0.8.10\jacoco-maven-plugin-0.8.10.jar;C:\Users\yharasym\.m2\repository\org\apache\maven\shared\file-management\1.2.1\file-management-1.2.1.jar;C:\Users\yharasym\.m2\repository\org\apache\maven\maven-plugin-api\2.0.6\maven-plugin-api-2.0.6.jar;C:\Users\yharasym\.m2\repository\org\apache\maven\shared\maven-shared-io\1.1\maven-shared-io-1.1.jar;C:\Users\yharasym\.m2\repository\org\apache\maven\maven-artifact\2.0.2\maven-artifact-2.0.2.jar;C:\Users\yharasym\.m2\repository\org\apache\maven\maven-artifact-manager\2.0.2\maven-artifact-manager-2.0.2.jar;C:\Users\yharasym\.m2\repository\org\apache\maven\maven-repository-metadata\2.0.2\maven-repository-metadata-2.0.2.jar;C:\Users\yharasym\.m2\repository\org\apache\maven\wagon\wagon-provider-api\1.0-alpha-6\wagon-provider-api-1.0-alpha-6.jar;C:\Users\yharasym\.m2\repository\org\codehaus\plexus\plexus-container-default\1.0-alpha-9\plexus-container-default-1.0-alpha-9.jar;C:\Users\yharasym\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\yharasym\.m2\repository\classworlds\classworlds\1.1-alpha-2\classworlds-1.1-alpha-2.jar;C:\Users\yharasym\.m2\repository\org\apache\maven\reporting\maven-reporting-api\3.0\maven-reporting-api-3.0.jar;C:\Users\yharasym\.m2\repository\org\apache\maven\doxia\doxia-sink-api\1.0\doxia-sink-api-1.0.jar;C:\Users\yharasym\.m2\repository\org\jacoco\org.jacoco.agent\0.8.10\org.jacoco.agent-0.8.10-runtime.jar;C:\Users\yharasym\.m2\repository\org\jacoco\org.jacoco.core\0.8.10\org.jacoco.core-0.8.10.jar;C:\Users\yharasym\.m2\repository\org\ow2\asm\asm\9.5\asm-9.5.jar;C:\Users\yharasym\.m2\repository\org\ow2\asm\asm-commons\9.5\asm-commons-9.5.jar;C:\Users\yharasym\.m2\repository\org\ow2\asm\asm-tree\9.5\asm-tree-9.5.jar;C:\Users\yharasym\.m2\repository\org\jacoco\org.jacoco.report\0.8.10\org.jacoco.report-0.8.10.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Kiev"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="c:\Tools\jdk-17.0.5\bin"/>
+    <property name="sun.java.command" value="C:\Users\yharasym\AppData\Local\Temp\surefire17890895450463390268\surefirebooter-20230611143507666_3.jar C:\Users\yharasym\AppData\Local\Temp\surefire17890895450463390268 2023-06-11T14-35-07_356-jvmRun1 surefire-20230611143507666_1tmp surefire_0-20230611143507666_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Intel\javaProjects\sonardemo\target\test-classes;C:\Intel\javaProjects\sonardemo\target\classes;C:\Users\yharasym\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.3\junit-jupiter-engine-5.9.3.jar;C:\Users\yharasym\.m2\repository\org\junit\platform\junit-platform-engine\1.9.3\junit-platform-engine-1.9.3.jar;C:\Users\yharasym\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\yharasym\.m2\repository\org\junit\platform\junit-platform-commons\1.9.3\junit-platform-commons-1.9.3.jar;C:\Users\yharasym\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.3\junit-jupiter-api-5.9.3.jar;C:\Users\yharasym\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\yharasym\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.3\junit-jupiter-params-5.9.3.jar;C:\Users\yharasym\.m2\repository\org\sonarsource\scanner\maven\sonar-maven-plugin\3.9.1.2184\sonar-maven-plugin-3.9.1.2184.jar;C:\Users\yharasym\.m2\repository\org\sonatype\plexus\plexus-sec-dispatcher\1.4\plexus-sec-dispatcher-1.4.jar;C:\Users\yharasym\.m2\repository\org\sonatype\plexus\plexus-cipher\1.4\plexus-cipher-1.4.jar;C:\Users\yharasym\.m2\repository\org\codehaus\plexus\plexus-utils\3.2.1\plexus-utils-3.2.1.jar;C:\Users\yharasym\.m2\repository\org\sonarsource\scanner\api\sonar-scanner-api\2.16.2.588\sonar-scanner-api-2.16.2.588.jar;C:\Users\yharasym\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\yharasym\.m2\repository\org\jacoco\jacoco-maven-plugin\0.8.10\jacoco-maven-plugin-0.8.10.jar;C:\Users\yharasym\.m2\repository\org\apache\maven\shared\file-management\1.2.1\file-management-1.2.1.jar;C:\Users\yharasym\.m2\repository\org\apache\maven\maven-plugin-api\2.0.6\maven-plugin-api-2.0.6.jar;C:\Users\yharasym\.m2\repository\org\apache\maven\shared\maven-shared-io\1.1\maven-shared-io-1.1.jar;C:\Users\yharasym\.m2\repository\org\apache\maven\maven-artifact\2.0.2\maven-artifact-2.0.2.jar;C:\Users\yharasym\.m2\repository\org\apache\maven\maven-artifact-manager\2.0.2\maven-artifact-manager-2.0.2.jar;C:\Users\yharasym\.m2\repository\org\apache\maven\maven-repository-metadata\2.0.2\maven-repository-metadata-2.0.2.jar;C:\Users\yharasym\.m2\repository\org\apache\maven\wagon\wagon-provider-api\1.0-alpha-6\wagon-provider-api-1.0-alpha-6.jar;C:\Users\yharasym\.m2\repository\org\codehaus\plexus\plexus-container-default\1.0-alpha-9\plexus-container-default-1.0-alpha-9.jar;C:\Users\yharasym\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\yharasym\.m2\repository\classworlds\classworlds\1.1-alpha-2\classworlds-1.1-alpha-2.jar;C:\Users\yharasym\.m2\repository\org\apache\maven\reporting\maven-reporting-api\3.0\maven-reporting-api-3.0.jar;C:\Users\yharasym\.m2\repository\org\apache\maven\doxia\doxia-sink-api\1.0\doxia-sink-api-1.0.jar;C:\Users\yharasym\.m2\repository\org\jacoco\org.jacoco.agent\0.8.10\org.jacoco.agent-0.8.10-runtime.jar;C:\Users\yharasym\.m2\repository\org\jacoco\org.jacoco.core\0.8.10\org.jacoco.core-0.8.10.jar;C:\Users\yharasym\.m2\repository\org\ow2\asm\asm\9.5\asm-9.5.jar;C:\Users\yharasym\.m2\repository\org\ow2\asm\asm-commons\9.5\asm-commons-9.5.jar;C:\Users\yharasym\.m2\repository\org\ow2\asm\asm-tree\9.5\asm-tree-9.5.jar;C:\Users\yharasym\.m2\repository\org\jacoco\org.jacoco.report\0.8.10\org.jacoco.report-0.8.10.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\yharasym"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.home" value="c:\Tools\jdk-17.0.5"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Intel\javaProjects\sonardemo"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\yharasym\AppData\Local\Temp\surefire17890895450463390268\surefirebooter-20230611143507666_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.5+9-LTS-191"/>
+    <property name="user.name" value="yharasym"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\yharasym\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\yharasym\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.5"/>
+    <property name="user.dir" value="C:\Intel\javaProjects\sonardemo"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1251"/>
+    <property name="java.library.path" value="c:\Tools\jdk-17.0.5\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;c:\Tools\jdk-17.0.5\\bin\;c:\Tools\apache-maven-3.8.6\bin\;C:\Tools\curl-7.86.0_2-win64-mingw\bin\;C:\Tools\git\bin\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Tools\node-v16.19.0-win-x64\;C:\Tools\putty\;C:\Tools\MiKTeX\miktex\bin\x64\;C:\Tools\winEdt\;C:\Tools\Go\bin\;C:\Tools\terraform\;C:\Program Files\Oracle\VirtualBox\;C:\Tools\allure-2.20.1\bin\;C:\Tools\androidSdk\platform-tools\;C:\Program Files\dotnet\;C:\Users\yharasym\AppData\Local\Microsoft\WindowsApps;C:\Users\yharasym\go\bin;C:\Tools\terraform\data;C:\Users\yharasym\.dotnet\tools;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.5+9-LTS-191"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="checkAdd(double, double, double)[1]" classname="com.softserve.academy.service.AppTest" time="0.058">
+    <system-out><![CDATA[checkAdd(double)
+]]></system-out>
+  </testcase>
+  <testcase name="checkAdd(double, double, double)[2]" classname="com.softserve.academy.service.AppTest" time="0.001">
+    <system-out><![CDATA[checkAdd(double)
+]]></system-out>
+  </testcase>
+  <testcase name="checkAdd(double, double, double)[3]" classname="com.softserve.academy.service.AppTest" time="0.002">
+    <system-out><![CDATA[checkAdd(double)
+]]></system-out>
+  </testcase>
+  <testcase name="checkAdd(int, int, int)[1]" classname="com.softserve.academy.service.AppTest" time="0.003">
+    <system-out><![CDATA[checkAdd(int)
+]]></system-out>
+  </testcase>
+  <testcase name="checkAdd(int, int, int)[2]" classname="com.softserve.academy.service.AppTest" time="0.002">
+    <system-out><![CDATA[checkAdd(int)
+]]></system-out>
+  </testcase>
+  <testcase name="checkAdd(int, int, int)[3]" classname="com.softserve.academy.service.AppTest" time="0.002">
+    <system-out><![CDATA[checkAdd(int)
+]]></system-out>
+  </testcase>
+  <testcase name="checkSub(double, double, double)[1]" classname="com.softserve.academy.service.AppTest" time="0.003">
+    <system-out><![CDATA[checkSub(double)
+]]></system-out>
+  </testcase>
+  <testcase name="checkSub(double, double, double)[2]" classname="com.softserve.academy.service.AppTest" time="0.002">
+    <system-out><![CDATA[checkSub(double)
+]]></system-out>
+  </testcase>
+  <testcase name="checkSub(double, double, double)[3]" classname="com.softserve.academy.service.AppTest" time="0.002">
+    <system-out><![CDATA[checkSub(double)
+]]></system-out>
+  </testcase>
+  <testcase name="checkSub(int, int, int)[1]" classname="com.softserve.academy.service.AppTest" time="0.002">
+    <system-out><![CDATA[checkSub(int)
+]]></system-out>
+  </testcase>
+  <testcase name="checkSub(int, int, int)[2]" classname="com.softserve.academy.service.AppTest" time="0.001">
+    <system-out><![CDATA[checkSub(int)
+]]></system-out>
+  </testcase>
+  <testcase name="checkSub(int, int, int)[3]" classname="com.softserve.academy.service.AppTest" time="0.002">
+    <system-out><![CDATA[checkSub(int)
+]]></system-out>
+  </testcase>
+</testsuite>
